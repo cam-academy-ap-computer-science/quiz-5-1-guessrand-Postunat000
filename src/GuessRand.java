@@ -10,7 +10,7 @@ public class GuessRand {
 		int rand = 0;
 		
 		boolean success = false;
-		rand = r.nextInt(101) + 0; // Get a random number between 1-100
+		rand = r.nextInt(100) + 1; // Get a random number between 1-100
 		while (success == false) { // loop until 'success' is true. 
 			System.out.println("Your Guess: ? ");
 			guess = console.nextInt(); // Get an integer from the user.
